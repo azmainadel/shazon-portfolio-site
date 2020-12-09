@@ -1,0 +1,39 @@
+# site settings
+title: Nahid Haque
+subtitle:
+email: shazon.buet.eee@gmail.com
+email_official: shazon@uap-bd.edu
+description: Electrical Engineer | Educator | Researcher
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://nahidhaque.github.io
+author:
+street_address: 37/A, Kalabagan 1st Lane, Green Road
+city: Dhaka
+state: 
+zip_code: 1205
+country: Bangladesh
+phone: +88 01680 222667
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 5
+
+# social settings
+500px_url:
+facebook_url: https://www.facebook.com/shazon007
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://instagram.com/shazon_haque
+linkedin_url: https://www.linkedin.com/in/shazon-haque-6b5865185/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/HaqueShazon
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+theme: jekyll-theme-cayman
