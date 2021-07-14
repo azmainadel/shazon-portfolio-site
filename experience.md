@@ -13,6 +13,20 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a class="image">
+			<img src="{% link assets/images/bracu.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h2>BRAC University</h2>
+					<h4>Lecturer, Department of EEE</h4>
+				<h5>Nov 2020 – Present</h5>
+				</header>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a class="image">
 			<img src="{% link assets/images/uap.png %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -20,7 +34,7 @@ nav-menu: true
 				<header class="major">
 					<h2>University of Asia Pacific</h2>
 					<h4>Lecturer, Department of EEE</h4>
-				<h5>Oct 2019 - Present</h5>
+				<h5>Oct 2019 - Nov 2020</h5>
 				</header>
 			</div>
 		</div>
@@ -39,7 +53,7 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
-		<section>
+	<section>
 		<a class="image">
 			<img src="{% link assets/images/buet.png %}" alt="" data-position="center center" />
 		</a>

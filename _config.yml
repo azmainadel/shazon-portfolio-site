@@ -2,10 +2,10 @@
 title: Nahid Haque
 subtitle:
 email: shazon.buet.eee@gmail.com
-email_official: shazon@uap-bd.edu
+email_official: nahid.haque@bracu.ac.bd
 description: Electrical Engineer | Educator | Researcher
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://nahidhaque.github.io
+url: https://nahidhaque.netlify.app
 author:
 street_address: 37/A, Kalabagan 1st Lane, Green Road
 city: Dhaka
