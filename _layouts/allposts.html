@@ -19,12 +19,13 @@
     <!-- Journal -->
     <section id="one">
       <div class="inner">
+        <h2>Journal Publication:</h2>
         {% for post in site.posts %}
         {% if post.type == 'journal' %}
         <header class="major">
-          <h3>{{ post.author }}</h3>
-          <h2>{{ post.title }}</h2>
-          <h4>{{ post.place }}</h4>
+          <h4>{{ post.author }}</h4>
+          <h3>{{ post.title }}</h3>
+          <h5>{{ post.place }}</h5>
         </header>
         {% if post.image %}<span class="image main">
           <center>
@@ -41,12 +42,13 @@
     <!-- Conference -->
     <section id="twp">
       <div class="inner">
+        <h2>Conference Publication:</h2>
         {% for post in site.posts %}
         {% if post.type == conference %}
         <header class="major">
-          <h3>{{ post.author }}</h3>
-          <h2>{{ post.title }}</h2>
-          <h4>{{ post.place }}</h4>
+          <h4>{{ post.author }}</h4>
+          <h3>{{ post.title }}</h3>
+          <h5>{{ post.place }}</h5>
         </header>
         {% if post.image %}<span class="image main">
           <center>
