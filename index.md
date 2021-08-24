@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hello, I am Nahid Haque'
+landing-title: 'Hello, I am Nahid Haque Shazon'
 description: null
 image: null
 author: null
