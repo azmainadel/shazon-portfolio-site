@@ -19,7 +19,7 @@
     <!-- Journal -->
     <section id="one">
       <div class="inner">
-        <h2>Journal Publication:</h2>
+        <h2>Journal Publications:</h2>
         {% for post in site.posts %}
         {% if post.type == 'journal' %}
         <header class="major">
@@ -42,9 +42,9 @@
     <!-- Conference -->
     <section id="twp">
       <div class="inner">
-        <h2>Conference Publication:</h2>
+        <h2>Conference Publications:</h2>
         {% for post in site.posts %}
-        {% if post.type == conference %}
+        {% if post.type == 'conference' %}
         <header class="major">
           <h4>{{ post.author }}</h4>
           <h3>{{ post.title }}</h3>
