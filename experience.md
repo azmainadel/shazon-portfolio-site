@@ -20,8 +20,8 @@ nav-menu: true
 				<header class="major">
 					<h2>BRAC University</h2>
 					<h4>Lecturer, Department of EEE</h4>
-					Conducting ‘Electronic circuits II’ course and ‘Control System Laboratory, C Programming Laboratory and Power Electronics Laboratory’ (Summer 2021 semester)
 					<h5>Nov 2020 – Present</h5>
+					Conducting ‘Electronic circuits II’ course and ‘Control System Laboratory, C Programming Laboratory and Power Electronics Laboratory’ (Summer 2021 semester)
 				</header>
 			</div>
 		</div>
@@ -35,8 +35,8 @@ nav-menu: true
 				<header class="major">
 					<h2>University of Asia Pacific</h2>
 					<h4>Lecturer, Department of EEE</h4>
-					Conducted ‘Power-plant Engineering’ course and ‘AC Circuit Laboratory, C Programming Laboratory, Microprocessor and Interfacing Laboratory and Power Electronics Laboratory’
 					<h5>Oct 2019 - Nov 2020</h5>
+					Conducted ‘Power-plant Engineering’ course and ‘AC Circuit Laboratory, C Programming Laboratory, Microprocessor and Interfacing Laboratory and Power Electronics Laboratory’
 				</header>
 			</div>
 		</div>
