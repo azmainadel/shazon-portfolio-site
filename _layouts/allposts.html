@@ -16,11 +16,11 @@
   <!-- Main -->
   <div id="main" class="alt">
 
-    <!-- One -->
+    <!-- Journal -->
     <section id="one">
       <div class="inner">
         {% for post in site.posts %}
-        {% if post.title != 404 %}
+        {% if post.type == journal %}
         <header class="major">
           <h3>{{ post.author }}</h3>
           <h2>{{ post.title }}</h2>
@@ -34,7 +34,28 @@
         <p>{{ post.content }}</p>
         {% endif %}
         <br>
+        {% endfor %}
+      </div>
+    </section>
 
+    <!-- Conference -->
+    <section id="twp">
+      <div class="inner">
+        {% for post in site.posts %}
+        {% if post.type == conference %}
+        <header class="major">
+          <h3>{{ post.author }}</h3>
+          <h2>{{ post.title }}</h2>
+          <h4>{{ post.place }}</h4>
+        </header>
+        {% if post.image %}<span class="image main">
+          <center>
+            <img src="{{ site.baseurl }}/{{ post.image }}" style="width: 55vw; min-width: 300px;" alt="" />
+          </center>
+        </span>{% endif %}
+        <p>{{ post.content }}</p>
+        {% endif %}
+        <br>
         {% endfor %}
       </div>
     </section>
