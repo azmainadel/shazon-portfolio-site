@@ -21,7 +21,7 @@
       <div class="inner">
         <h2>Journal Publications:</h2>
         {% for post in site.posts %}
-        {% if post.type == 'journal' %}
+        {% if post.type != 'conference' %}
         <header class="major">
           <h4>{{ post.author }}</h4>
           <h3>{{ post.title }}</h3>
